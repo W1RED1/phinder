@@ -24,6 +24,8 @@ GOOS=windows GOARCH=386 go build -o phinder32.exe phinder.go
 ```
 
 # Usage
+![](https://github.com/SpacemanHenry/phinder/blob/main/run.gif)
+
 Help page available via the usual `-h` and `--help`
 ```
 ┌──(kali㉿kali)-[~]

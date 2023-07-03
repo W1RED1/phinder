@@ -47,7 +47,7 @@ OPTIONAL:
   --delay int                   Delay duration in milliseconds (default: 0)
   -o string                     Log file to append search results
   --positive-codes string       Positive HTTP response status codes (e.g. "200, 301, 302")
-  --negative-codes string       Negative HTTP reponse status codes, overrides positive codes
+  --negative-codes string       Negative HTTP response status codes, overrides positive codes
   --ignore-sizes string         Ignore responses with a given content length (e.g. "274, 202, 386")
   -r                            Enable recursive searching
   --useragent string            User-agent string for HTTP requests (default: Go-http-client/[version])

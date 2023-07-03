@@ -744,7 +744,7 @@ func help() {
 	fmt.Fprintln(w, "  --delay int\tDelay duration in milliseconds (default: 0)")
 	fmt.Fprintln(w, "  -o string\tLog file to append search results")
 	fmt.Fprintln(w, "  --positive-codes string\tPositive HTTP response status codes (e.g. \"200, 301, 302\")")
-	fmt.Fprintln(w, "  --negative-codes string\tNegative HTTP reponse status codes, overrides positive codes")
+	fmt.Fprintln(w, "  --negative-codes string\tNegative HTTP response status codes, overrides positive codes")
 	fmt.Fprintln(w, "  --ignore-sizes string\tIgnore responses with a given content length (e.g. \"274, 202, 386\")")
 	fmt.Fprintln(w, "  -r\tEnable recursive searching")
 	fmt.Fprintln(w, "  --useragent string\tUser-agent string for HTTP requests (default: Go-http-client/[version])")

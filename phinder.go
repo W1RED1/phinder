@@ -291,6 +291,10 @@ func (f *Fuzzer) checkLocationHeader(result Result) bool {
 	}
 
 	locationSplit := strings.Split(locationHeader, "/")
+	if len(locationSplit) < 2 {
+                return false
+        }
+	
 	location := locationSplit[len(locationSplit)-2] // second to last element
 	if f.addSlash(location) == f.addSlash(result.word) {
 		return true

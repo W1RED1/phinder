@@ -15,7 +15,7 @@ Used to find web pages, directories, API endpoints, etc. on a target web server
 I got tired of deciding between the speed of [gobuster](https://github.com/OJ/gobuster) and the recursive searching of [dirb](https://salsa.debian.org/pkg-security-team/dirb)
 
 ## How?
-Download a pre-compiled binary or download the source code and compile as follows:  
+Download the source code and compile as follows:  
 ```
 GOOS=linux GOARCH=amd64 go build -o phinder phinder.go
 GOOS=linux GOARCH=386 go build -o phinder32 phinder.go
